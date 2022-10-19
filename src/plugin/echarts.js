@@ -74,7 +74,7 @@ const install = function(Vue) {
                     borderColor: 'rgba(0,0,0,0.2)'
                   },
                   emphasis: { // 选中的区域颜色及阴影效果等
-                    areaColor: 'rgba(255,180,0,0.8)',
+                    areaColor: '#45cfff',
                     shadowOffsetX: 0,
                     shadowOffsetY: 0,
                     shadowBlur: 20,
@@ -361,7 +361,7 @@ const install = function(Vue) {
                     borderColor: 'rgba(0,0,0,0.2)'
                   },
                   emphasis: { // 选中的区域颜色及阴影效果等
-                    areaColor: 'rgba(255,180,0,0.8)',
+                    areaColor: '#45cfff',
                     shadowOffsetX: 0,
                     shadowOffsetY: 0,
                     shadowBlur: 20,

@@ -13,6 +13,7 @@
           <div class="summary">
             <div style="font-weight: 600">{{item.title}}</div>
             <div>{{item.summary|addEllipsis}}</div>
+            <div style="color:#999;font-size:10px">>>查看详细内容</div>
           </div>
         </a> 
       </van-step>

@@ -1,7 +1,7 @@
 <template>
   <div class="tabs">
-    <van-tabs v-model="active">
-      <van-tab title="中国疫情">
+    <van-tabs v-model="active" scrollspy sticky>
+      <van-tab title="国内疫情">
         <ChinaData></ChinaData>
       </van-tab>
       <van-tab title="全球疫情">
@@ -22,7 +22,7 @@ export default {
   name: "Tabs",
   data(){
    return {
-    active: 1
+    active: 0
    }
   },
   components: {

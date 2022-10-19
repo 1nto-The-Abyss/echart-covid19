@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <van-tabs v-model="active" type="card">
-      <van-tab title="全国疫情数据">
+      <van-tab title="国内疫情数据">
         <div class="panel">
           <div class="data">
             <div class="title">

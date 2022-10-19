@@ -1,29 +1,23 @@
-# vue-echarts
+## 功能模块
+### 国内外疫情数据卡片
 
-## Project setup
-```
-npm install
-```
+### 国内疫情
+  - 国内疫情地图
+  - 全国疫情新增趋势
+  - 全国疫情累计趋势
+  - 国内疫情数据表格(未完成)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 全球疫情
+  - 全球疫情地图
+  - 全球疫情表格(未完成)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 疫情动态
+  - 最新疫情热点
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 相关接口
+  - 国内外疫情数据，疫情动态新闻
+  > http://api.tianapi.com/ncov/index
+  - 国内疫情地图数据，国内疫情趋势
+  > https://api.inews.qq.com/newsqa/v1/query/inner/publish/modules/list?modules=chinaDayList,chinaDayAddList,nowConfirmStatis,provinceCompare
+  - 全球疫情地图数据
+  > https://api.inews.qq.com/newsqa/v1/automation/modules/list?modules=FAutoCountryConfirmAdd,WomWorld,WomAboard
