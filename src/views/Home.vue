@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <Header></Header>
     <Card :desc="desc"></Card>
     <Tabs></Tabs>
@@ -53,5 +53,12 @@ export default {
 }
 </script>
 <style>
+.container {
+  position: absolute;
+  width: 375px;
+  top: 0;
+  left: 50%;
+  margin-left: -187.5px;
+}
 </style>
 

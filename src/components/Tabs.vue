@@ -1,6 +1,6 @@
 <template>
   <div class="tabs">
-    <van-tabs v-model="active" scrollspy sticky>
+    <van-tabs v-model="active">
       <van-tab title="国内疫情">
         <ChinaData></ChinaData>
       </van-tab>

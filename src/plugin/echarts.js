@@ -57,6 +57,7 @@ const install = function(Vue) {
                 name: '省',
                 type: 'map',
                 map: 'china',
+                roam: true,
                 zoom: 1.2, // 地图缩放比例
                 aspectScale: 0.75, // 长宽比
                 label: {

@@ -23,8 +23,9 @@ export default {
 <style lang="less" scoped>
 .header {
   position: relative;
-  width:375px;
-  height: 220px;
+  width:100%;
+  height: 0;
+  padding-top:58%;
   margin-bottom: 180px;
   color: #fff;
   background-image: url("@/assets/img/header.png");
