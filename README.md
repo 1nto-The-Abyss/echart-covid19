@@ -1,3 +1,5 @@
+## 预览地址
+http://yinqiyao.gitee.io/echart-covid19
 ## 功能模块
 ### 国内外疫情数据卡片
 
