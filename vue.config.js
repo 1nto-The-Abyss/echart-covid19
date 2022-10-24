@@ -9,5 +9,5 @@ module.exports = {
     //   }
     // },
   },
-  publicPath: "/echart-covid19/"
+  publicPath:'./',
 }
